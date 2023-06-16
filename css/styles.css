@@ -719,7 +719,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
-
+  outline: transparent;
   padding-left: 38px;
 }
 .button-submit {
@@ -764,9 +764,17 @@ img {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .input-wrap {
   position: relative;
 }
 .input-field {
   margin-bottom: 8px;
+}
+.modal-input:focus {
+  border-color: var(--active-links);
+  stroke: var(--active-links);
+}
+.modal-input:focus + .modal-icon {
+  fill: var(--active-links);
 }
