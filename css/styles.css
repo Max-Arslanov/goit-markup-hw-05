@@ -708,7 +708,7 @@ img {
 
   color: #2e2f42;
   max-width: 360px;
-  margin: 72px 0 16px 0;
+  margin: 48px 0 16px 0;
 }
 .modal-form {
 }
@@ -721,4 +721,39 @@ img {
   background-color: transparent;
   margin-bottom: 8px;
   padding-left: 38px;
+}
+.button-submit {
+  background-color: var(--active-links);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  padding: 0;
+}
+.button-submit:hover,
+.button-submit:focus {
+  background-color: var(--accent-color);
+}
+.modal-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: inline-block;
+  margin-bottom: 4px;
 }
