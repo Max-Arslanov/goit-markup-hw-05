@@ -787,12 +787,12 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  width: 246px;
+  width: 264px;
   height: 40px;
-  margin-right: 24px;
+  /* margin-right: 24px; */
   padding-left: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  /* padding-top: 8px;
+  padding-bottom: 8px; */
 }
 .footer-input::placeholder {
   font-weight: 400;
@@ -811,6 +811,7 @@ img {
 }
 .subscribe-icon {
   fill: var(--white-background);
+  margin-left: 16px;
 }
 .subscribe-button {
   background-color: var(--active-links);
@@ -835,7 +836,7 @@ img {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0;
-  margin-right: 0;
+  /* margin-right: 0; */
 }
 
 .subscribe-button:hover {
