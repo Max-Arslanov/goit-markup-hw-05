@@ -920,4 +920,5 @@ img {
   margin-bottom: 16px;
 }
 .privacy-span {
+  display: inline-flex;
 }
