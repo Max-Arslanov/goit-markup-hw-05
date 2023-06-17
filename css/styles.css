@@ -783,6 +783,10 @@ img {
   fill: var(--active-links);
 }
 .footer-input {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -798,10 +802,7 @@ img {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
-  /* identical to box height, or 200% */
-
   letter-spacing: 0.04em;
-
   color: #ffffff;
 }
 .footer-subscribe {
