@@ -872,3 +872,32 @@ img {
 .modal-text-area:focus {
   border-color: var(--active-links);
 }
+.privacy-policy {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: 0.04em;
+
+  color: #8e8f99;
+  display: flex;
+}
+.privacy-link {
+  color: var(--active-links);
+}
+.privacy-policy span {
+  /* color: tansparent; */
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  display: block;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.privacy-agree:checked + .privacy-policy span {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
