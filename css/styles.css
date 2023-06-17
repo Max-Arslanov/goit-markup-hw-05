@@ -846,6 +846,7 @@ img {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .modal-field {
 }
