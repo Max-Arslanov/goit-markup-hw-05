@@ -899,10 +899,9 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
-  align-items: center;
-  justify-content: center;
+
   fill: transparent;
-  display: inline-flex;
+  /* display: inline-flex; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -921,4 +920,6 @@ img {
 }
 .privacy-span {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
