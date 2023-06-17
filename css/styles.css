@@ -893,15 +893,15 @@ img {
   color: var(--active-links);
 }
 .privacy-policy span {
-  /* color: tansparent; */
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
-
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   fill: transparent;
-  /* display: inline-flex; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -919,7 +919,4 @@ img {
   margin-bottom: 16px;
 }
 .privacy-span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
 }
