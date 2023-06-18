@@ -708,7 +708,7 @@ img {
 
   color: #2e2f42;
   max-width: 360px;
-  margin: 48px 0 16px 0;
+  margin: 0 0 16px 0;
 }
 .modal-form {
 }
@@ -763,7 +763,7 @@ img {
   margin-bottom: 4px;
 }
 .modal-icon {
-  stroke: #2e2f42;
+  fill: #2E2F42;
   position: absolute;
   left: 16px;
   top: 50%;
@@ -814,7 +814,7 @@ img {
 }
 .subscribe-icon {
   fill: var(--white-background);
-  margin-left: 16px;
+  /* margin-left: 16px; */
 }
 .subscribe-button {
   background-color: var(--active-links);
